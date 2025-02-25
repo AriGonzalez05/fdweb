@@ -1,0 +1,22 @@
+/* Estilos básicos */
+.body {
+	font-family: Arial, sans-serif;
+	background-color: #e93535;
+	margin: 0;
+	padding: 0;
+}
+.tituloari{
+	font-family: Helvetica;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	color: #111111; 
+	font-size: 3rem;
+}
+h1,
+h2,
+h3 {
+	color: #333;
+}
