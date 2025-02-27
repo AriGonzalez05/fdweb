@@ -37,6 +37,17 @@
   <body>
     <header>
       <h1 class="tituloari">ARI</h1>
+      <img
+        src="./assets/images/kim kardashian.jpg"
+        alt="Descripción de la imagen"
+      />
+      <video controls>
+        <source
+          src="./assets/videos/26e91c0c-c15f-4892-a901-47788a5fe7f3.mp4"
+          type="video/mp4"
+        />
+        Tu navegador no soporta la etiqueta de video.
+      </video>
       <nav>
         <ul>
           <li><a href="#inicio">Inicio</a></li>
@@ -55,25 +66,11 @@
     </header>
 
     <main>
-      <section id="nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p>Bienvenido a nuestra página.</p>
-      </section>
-      <section id="productos">
-        <h2>Sobre nuestros productod</h2>
-        <p>Bienvenido a nuestra página.</p>
-      </section>
-      <img
-        src="./assets/images/kim kardashian.jpg"
-        alt="Descripción de la imagen"
-      />
-      <video controls>
-        <source
-          src="./assets/videos/26e91c0c-c15f-4892-a901-47788a5fe7f3.mp4"
-          type="video/mp4"
-        />
-        Tu navegador no soporta la etiqueta de video.
-      </video>
+      <div class="contenedor">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+      </div>
     </main>
 
     <footer>
