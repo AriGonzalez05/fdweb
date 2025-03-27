@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <nav class="menu">
+      <a href="#">Inicio</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <style>
+      .caja {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+      .imagenuntercio {
+        width: 50%;
+        height: auto;
+        float: left;
+        margin-right: 10px;
+      }
+      .menu {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+        padding: 20px;
+        flex-direction: row;
+      }
+      .menu a {
+        color: white;
+        text-decoration: none;
+        background-color: blue;
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caja"></div>
+    <div>
+      <img
+        src="https://storage.googleapis.com/oceanwide_web/media-dynamic/cache/widen_570_progressive/v2-gallery_media/media67b70cd98fe9b844894570.jpg"
+        class="imagenuntercio"
+      />
+      <p>Este texto fluirá alrededor de la imagen.</p>
+    </div>
+  </body>
+</html>
